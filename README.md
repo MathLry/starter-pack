@@ -1,26 +1,14 @@
-# PHP-To_Do
+# Installation
+``` 
+npm install
+npm run start
+```
 
-**Intervenant :** Julien SOSTHENE, Pierre FACONNIER
-***
+And then go to `localhost:1234`
 
-## ✍ Docummentation fait par :
-- ``Antoine Bouffard`` alias [@Arata34](https://github.com/Arata34)
-- ``Florian Dagnas`` alias [@Flodagnas](https://github.com/Flodagnas)
-- ``Pierric Come`` alias []()
-- ``Mathias LEROY`` alias [@MathLry](https://github.com/MathLry)
+# Handling changes
+If you need to change things such as navbar for example, you will find all the reusable component througout the pages in the folder : `/src/partials`.
+Change the html here and modifiy the css in the good file in `/src/scss`.
+That is almost everything you need to know.
 
-## 📁 Description du projet :
-Le but du projet est de créer une "**To-Do list**" (liste de tâches) sur un site web. On pourra se connecter à un compte, et ainsi inviter des personnes pour qu'ils puissent collaborer sur ces listes.
-
-### Voici les consignes définies :
-- Ce projet utilisera le langage php, html, et css (pas de javascript);
-- Le site comprend une partie connexion et création d'un compte utilisateur ;
-- On doit pouvoir créer des listes (en étant créateur ou collaborateur, et avec la possibilité de supprimer les listes si on en est le créateur) ;
-- Pouvoir ajouter des tâches et les marquer comme terminées ;
-- Ajouter d'autres personnes sur une ou plusieurs listes de tâches.
-
-***
-![Logo SQLite](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.J0lWJeETJa4JmZxsKtZogQHaDg%26pid%3DApi&f=1)
-
-***
-*Nantes YNOV Campus - B2 Informatique - 2021/2022*
+If you have run : `npm run start`, parcels has an excellent hot reload except if you are on another page than index.html. There is a bug with parcels that requires you to manually refresh the page when you are not working on `index.html`.
