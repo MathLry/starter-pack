@@ -5,14 +5,14 @@
 
 ## ✍ Docummentation fait par :
 - ``Antoine Bouffard`` alias [@Arata34](https://github.com/Arata34)
-- ``Florian Dagnas`` alias [Flodagnas](https://github.com/Flodagnas)
+- ``Florian Dagnas`` alias [@Flodagnas](https://github.com/Flodagnas)
 - ``Pierric Come`` alias []()
 - ``Mathias LEROY`` alias [@MathLry](https://github.com/MathLry)
 
 ## 📁 Description du projet :
 Le but du projet est de créer une "**To-Do list**" (liste de tâches) sur un site web. On pourra se connecter à un compte, et ainsi inviter des personnes pour qu'ils puissent collaborer sur ces listes.
 
-Voici les consignes définies :
+### Voici les consignes définies :
 - Ce projet utilisera le langage php, html, et css (pas de javascript);
 - Le site comprend une partie connexion et création d'un compte utilisateur ;
 - On doit pouvoir créer des listes (en étant créateur ou collaborateur, et avec la possibilité de supprimer les listes si on en est le créateur) ;
